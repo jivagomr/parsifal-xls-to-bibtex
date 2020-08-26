@@ -2,7 +2,6 @@ import pandas as pd
 
 spreadsheet_data = pd.read_excel('articles.xls')
 
-
 bases_data = {}
 
 for i in range(len(spreadsheet_data)) :
@@ -43,6 +42,3 @@ bases_keys = bases_data.keys()
 for key in bases_keys :
     with open(key+".bib", "w", encoding='utf-8') as file :
         file.write(bases_data[key])
-
-    
-     
