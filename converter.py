@@ -19,8 +19,8 @@ for i in range(len(spreadsheet_data)) :
         title = {{{row['title']}}},
         journal = {{{row['journal']}}},
         author = {{{row['author']}}},
-        affiliation =  {{{row['affiliation']}}}
-        abstract = {{{row['abstract']}}}
+        affiliation =  {{{row['affiliation']}}},
+        abstract = {{{row['abstract']}}},
         volume = {{{row['volume']}}},
         year = {{{row['year']}}},
         pages = {{{row['pages']}}},
@@ -28,6 +28,7 @@ for i in range(len(spreadsheet_data)) :
         publisher = {{{row['publisher']}}},
         doi = {{{row['doi']}}},
         issn = {{{row['issn']}}},
+        url = {{{row['url']}}},
         note = {{{row['note']}}} }}
 
     """
